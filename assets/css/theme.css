@@ -1385,3 +1385,8 @@ td span {
 .footer-links:hover {
 	color: var(--color-accent);
 }
+
+.form-check-input:checked {
+	border-color: var(--color-accent);
+	background-color: var(--color-accent);
+}

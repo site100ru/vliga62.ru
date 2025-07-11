@@ -46,9 +46,9 @@ if (!defined('ABSPATH')) {
       // Если пользователь никогда не закрывал форму
       if (!lastClosed) return true;
 
-      // Если прошло более 12 часов (43200000 миллисекунд) с последнего закрытия
+      // Если прошло более 24 часов (43200000 миллисекунд) с последнего закрытия
       const now = new Date().getTime();
-      const twelveHoursInMs = 12 * 60 * 60 * 1000; // 12 часов = 43200000 миллисекунд
+      const twelveHoursInMs = 24 * 60 * 60 * 1000; // 24 часов = 86400000 миллисекунд
       return (now - parseInt(lastClosed)) > twelveHoursInMs;
     }
 

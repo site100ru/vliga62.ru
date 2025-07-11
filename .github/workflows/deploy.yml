@@ -15,5 +15,5 @@ jobs:
           username: ${{ secrets.REGRU_USER }}
           key: ${{ secrets.REGRU_KEY }}
           script: |
-            cd /var/www/u1538455/data/www/site100.ru/wp-content/themes/site100theme
+            cd /var/www/u1538455/data/www/vliga62.ru/wp-content/themes/vliga62
             git pull

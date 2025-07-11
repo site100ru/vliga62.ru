@@ -338,9 +338,14 @@
 					<div id="company-in-footer">
 						©<?php echo date('Y'); ?> <?php echo get_bloginfo('name'); ?> | ИНН <?php the_field('company_inn', 'option'); ?>
 					</div>
+
+					<div id="company-in-footer" class="policy-in-footer">
+						<a class="links-one footer-links" href="docs/Privacy-Policy.pdf" target="_blank">Политика конфиденциальности</a><span class="d-block d-md-none"></span><span class="d-none d-md-inline-block">&nbsp;|&nbsp;</span><a class="footer-links" href="docs/Consent-to-the-processing-of-personal-data.pdf" target="_blank">Согласие на обработку персональных данных</a>
+					</div>
+
 					<div id="im-in-footer">
 						Создание, продвижение и поддержка:
-						<a href="https://сайт100.рф/" class="text-light">сайт100.рф</a>
+						<a href="https://site100.ru" class="footer-links">site100.ru</a>
 					</div>
 				</div>
 			</div>
@@ -348,6 +353,8 @@
 	</footer>
 
 </section>
+
+<?php get_template_part('template-parts/privacy/privacy'); ?>
 
 <!-- Callback Modal -->
 <div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel" aria-hidden="true">

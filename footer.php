@@ -340,7 +340,7 @@
 					</div>
 
 					<div id="company-in-footer" class="policy-in-footer">
-						<a class="links-one footer-links" href="docs/Privacy-Policy.pdf" target="_blank">Политика конфиденциальности</a><span class="d-block d-md-none"></span><span class="d-none d-md-inline-block">&nbsp;|&nbsp;</span><a class="footer-links" href="docs/Consent-to-the-processing-of-personal-data.pdf" target="_blank">Согласие на обработку персональных данных</a>
+						<a class="links-one footer-links" href="<?php echo get_template_directory_uri(); ?>/docs/Privacy-Policy.pdf" target="_blank">Политика конфиденциальности</a><span class="d-block d-md-none"></span><span class="d-none d-md-inline-block">&nbsp;|&nbsp;</span><a class="footer-links" href="<?php echo get_template_directory_uri(); ?>/docs/Consent-to-the-processing-of-personal-data.pdf" target="_blank">Согласие на обработку персональных данных</a>
 					</div>
 
 					<div id="im-in-footer">
@@ -354,7 +354,7 @@
 
 </section>
 
-<?php get_template_part('template-parts/privacy/privacy'); ?>
+<?php get_template_part('template-parts/blocks/privacy'); ?>
 
 <!-- Callback Modal -->
 <div class="modal fade" id="callbackModal" tabindex="-1" aria-labelledby="callbackModalLabel" aria-hidden="true">

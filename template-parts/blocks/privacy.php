@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
   <div class="form-content container p-0">
     <div class="row justify-content-center align-items-center">
       <div class="col-md-9">
-        <p class="mb-md-0">
+        <p class="mb-md-0 text-dark">
           На нашем сайте используются cookie-файлы, в том числе сервисов веб-аналитики. Используя сайт, вы
           соглашаетесь на <a
             href="<?php echo get_template_directory_uri(); ?>/docs/Consent-to-the-processing-of-personal-data.pdf"
@@ -28,7 +28,7 @@ if (!defined('ABSPATH')) {
         </p>
       </div>
       <div class="col-md-3 text-md-center">
-        <button id="closeBtn" class="btn btn-corporate-color-1">Понятно</button>
+        <button id="closeBtn" class="btn btn-primary px-4 py-2">Понятно</button>
       </div>
     </div>
   </div>
